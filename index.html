@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> verificador de </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header> 
+        <h1> DevChallenge Arena</h1> 
+        <p> Resolva dessafios de JavaScript.  Melhore suas habilidades. suba no ranking.</p>
+    </header>
+
+    <main> 
+        <section id="challenge-section"> 
+            <h2 id="challenge-title"> dessafios </h2>   
+            <p id="challenge-descrition"> Clique em "Proximo"  dessafio <button> 
+
+            </button id = "editor-section">
+            <h3> Seu codigo (responda com uma `return`):</h3> 
+            <textarea name="code-edition" id="code-editor" rows="8" placeholder="function solve(input)  {\n return ...\n}">
+            </textarea> 
+            <button id="run-code"> 🎬 Testar código </button> 
+            <p id="result-message"> </p>
+            <section> 
+
+
+            </section id = "score-section">
+            <h3> Sua pontuação: <span id="score"> 0 </span> 
+            </h3>
+        </section>
+    </main>
+
+    <script src="server.js"></script>
+</body>
+</html>

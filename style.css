@@ -1,0 +1,39 @@
+
+body { 
+    font-family: sans-serif; 
+    background: #f0f0f0; 
+    padding: 1rem; 
+    color: #333; 
+} 
+
+header { 
+    text-align: center; 
+    margin-bottom: 2 rem; 
+}
+
+main { 
+    max-width: 800px;
+    margin: auto; 
+    background: #fff; 
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(0, 0, 0.1); 
+}
+
+textarea { 
+    width: 100%;
+    font-family: monospace;
+    font-size: 1 rem; 
+    padding: 1 rem; 
+}
+
+button { 
+    margin-top: 1rem; 
+    padding: 0.5rem 1rem;
+    cursor: pointer; 
+}
+
+#result-message { 
+    font-weight: bold;
+    margin-top: 1rem;
+}
