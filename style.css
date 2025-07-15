@@ -98,3 +98,10 @@ main {
         font-size: 2rem;
     }
 } 
+
+footer { 
+    text-align: center;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #40739e;
+}
